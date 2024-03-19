@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import Sparkle from "@/components/sparkle"
 import { Button } from "@/components/ui/moving-border";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import Sign from "@/components/sign"
 
 const words = `Oxygen gets you high. In a catastrophic emergency, we're taking giant, panicked breaths. Suddenly you become euphoric, docile. You accept your fate. It's all right here. Emergency water landing, six hundred miles an hour. Blank faces`
 
@@ -15,6 +16,8 @@ const words = `Oxygen gets you high. In a catastrophic emergency, we're taking g
 
 export default function Home() {
   return (
+
+
     <div className="min-h-screen bg-black/[.96] antialiased bd-grid-white/[0.02]">
 
       <Sparkle/>
@@ -30,5 +33,6 @@ export default function Home() {
     </div>
       <BackgroundBeams />
     </div>
+    
   );
 }
