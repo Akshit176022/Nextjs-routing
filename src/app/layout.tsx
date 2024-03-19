@@ -24,9 +24,9 @@ export default function RootLayout({
       <body className={inter.className}>
 
 
-<div className="relative w-full flex items-center justify-center  ">
+{/* <div className="relative w-full flex items-center justify-center  ">
         <Navbar/>
-        </div>
+        </div> */}
 
      {children}
         
