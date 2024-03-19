@@ -1,7 +1,8 @@
 import Herosection from "@/components/herosection"
 import Image from "next/image";
 import Footer from "@/components/footer";
-
+import { BackgroundBeams } from "@/components/background-beams";
+import Rules from "@/components/rules";
 
 
 export default function Home() {
@@ -11,10 +12,10 @@ export default function Home() {
   <Herosection/>
  
 
- <Footer/>
 
 
-
+ <BackgroundBeams />
+<Rules/>
 
  </main>
   );
