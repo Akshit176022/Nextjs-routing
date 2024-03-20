@@ -7,7 +7,9 @@ import { BackgroundBeams } from "@/components/background-beams";
 
 export default function BackgroundGradientDemo() {
   return (
-    <div className="mt-20 m-auto w-4/12">
+
+<div className=" bg-black antialiased bd-grid-white/[0.02]">
+<div className="mt-20 m-auto w-4/12 bg-black">
       <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-white dark:bg-zinc-900 m-auto   ">
       <p className="text-base sm:text-2xl text-black mt-4 mb-2 dark:text-neutral-200">
          Round1
@@ -33,6 +35,7 @@ export default function BackgroundGradientDemo() {
       </BackgroundGradient>
  
     </div>
+</div>
     
 
   );

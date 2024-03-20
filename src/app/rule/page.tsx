@@ -18,9 +18,9 @@ export default function LampDemo() {
       >
   
       </motion.h1>
-      <h1 className="text-5xl mx-inset-3 font-semibold">RULES</h1>
+      <h1 className="text-5xl mx-inset-3 text-zinc-200  font-semibold">RULES</h1>
       <div className="m ">
-      <ul className="list-disc text-2xl justify-center items-center py-2">
+      <ul className="list-disc text-2xl justify-center  text-zinc-200 items-center py-2">
     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, molestiae!</li>
     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, modi!</li>
     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, necessitatibus?</li>

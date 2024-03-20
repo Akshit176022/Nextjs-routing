@@ -16,7 +16,8 @@ export default function SignupFormDemo() {
     console.log("Form submitted");
   };
   return (
-    <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black mt-20">
+ <div className="bg-black antialiased bd-grid-white/[0.02]">
+     <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black mt-20">
       <h2 className="font-bold text-2xl text-neutral-800 dark:text-neutral-200">
         Welcome to ABHEDYA 3.0
       </h2>
@@ -90,6 +91,7 @@ export default function SignupFormDemo() {
         </div>
       </form>
     </div>
+ </div>
 
   );
 }

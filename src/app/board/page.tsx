@@ -4,7 +4,8 @@ import { SparklesCore } from "@/components/ui/sparkles"
 
 export  default function SparklesPreview() {
   return (
-    <div className="h-[40rem] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+<div className="min-h-screen bg-black antialiased bd-grid-white/[0.02]">
+<div className="h-[40rem] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <div className="w-full absolute inset-0 h-screen">
         <SparklesCore
           id="tsparticlesfullpage"
@@ -58,5 +59,6 @@ export  default function SparklesPreview() {
 
 </div>
     </div>
+</div>
   ); 
 }

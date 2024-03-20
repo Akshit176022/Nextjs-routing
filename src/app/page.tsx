@@ -18,7 +18,7 @@ export default function Home() {
   return (
 
 
-    <div className="min-h-screen bg-black/[.96] antialiased bd-grid-white/[0.02]">
+    <div className="min-h-screen bg-black antialiased bd-grid-white/[0.02]">
 
       <Sparkle/>
       <div className="mb-400 font-normal text-base text-neutral-300  text-center  w-800 ">

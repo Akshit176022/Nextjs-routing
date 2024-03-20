@@ -24,6 +24,7 @@ export default function RootLayout({
       <body className={inter.className}>
 
 
+<div className="bg-black antialiased bd-grid-white/[0.02] h-full">
 <div className="relative w-full flex items-center justify-center  ">
         <Navbar/>
         </div>
@@ -31,6 +32,7 @@ export default function RootLayout({
      {children}
         
 
+</div>
         
         
 </body>
