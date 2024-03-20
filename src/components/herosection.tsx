@@ -2,7 +2,7 @@ import React from "react";
 import  cn  from "@/utils/cn";
 import { Spotlight } from "./ui/spotlight";
 
-
+import Link from "next/link";
 import { Button } from "./ui/moving-border";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 const words = `Oxygen gets you high. In a catastrophic emergency, we're taking giant, panicked breaths. Suddenly you become euphoric, docile. You accept your fate. It's all right here. Emergency water landing, six hundred miles an hour. Blank faces
@@ -26,13 +26,17 @@ export default function SpotlightPreview() {
 
 
     <div className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto ">
-      <Button
+ <Button 
         borderRadius="1.75rem"
         className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 "
       >
  
-  Play Game  </Button>
+
+Play Game 
+
+  </Button>
     </div>
+
 
       </div>
       <div>

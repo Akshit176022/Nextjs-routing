@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/utils/cn";
-
+import Link from "next/link";
 
 
 function Navbar({ className }: { className?: string }) {
@@ -12,16 +12,23 @@ function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-0  z-50 text-2xl  gap-5 ", className)}
     >
       <Menu setActive={setActive}>
-        <MenuItem setActive={setActive} active={active}  item="Leaderboard">
+      <Link  href="/board"> 
+      <MenuItem setActive={setActive} active={active}  item="Leaderboard">
 
-        </MenuItem>
+</MenuItem>
+      </Link>
 
-        <MenuItem setActive={setActive} active={active} item=" Game">
+   <Link href="./sign">
+   <MenuItem setActive={setActive} active={active} item=" Sign Up">
 
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Rules">
+</MenuItem>
+   </Link>
+<Link href="./rule">
+<MenuItem setActive={setActive} active={active} item="Rules">
    
    </MenuItem>
+</Link>
+    
       </Menu>
     </div>
   );
